@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-28T02:00:00Z",
+  "settings": {
+    "default_threshold": 30,
+    "stale_days": 14,
+    "responsible": {
+      "name": "Ответственный за обучение (образец)",
+      "email": "responsible@example.com",
+      "phone": "+7 000 000-00-00"
+    },
+    "site_url": "https://example.com/"
+  },
+  "employees": [
+    {
+      "id": "E0001",
+      "code": "AAAAA-22222",
+      "name": "Петров Пётр Петрович",
+      "position": "Машинист",
+      "email": "petrov@example.com",
+      "trainings": [
+        {
+          "name": "Охрана труда",
+          "perpetual": false,
+          "passed": true,
+          "last_date": "2025-03-14",
+          "valid_until": "2026-11-20",
+          "threshold_days": 30,
+          "needs_clarification": false,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        },
+        {
+          "name": "Электробезопасность, группа III",
+          "perpetual": false,
+          "passed": true,
+          "last_date": "2026-10-05",
+          "valid_until": "2026-12-20",
+          "threshold_days": 30,
+          "needs_clarification": false,
+          "scheduled_date": "2026-12-05",
+          "scheduled_place": "Учебный центр"
+        },
+        {
+          "name": "Пожарная безопасность",
+          "perpetual": true,
+          "passed": true,
+          "last_date": "2026-01-15",
+          "valid_until": null,
+          "threshold_days": 365,
+          "needs_clarification": false,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        }
+      ],
+      "documents": [
+        {
+          "name": "Инструкция по охране труда ИОТ-001",
+          "number": "001",
+          "acknowledged": true,
+          "ack_date": "2026-02-10",
+          "due_date": null
+        },
+        {
+          "name": "Политика обработки персональных данных",
+          "number": "",
+          "acknowledged": false,
+          "ack_date": null,
+          "due_date": "2027-01-31"
+        }
+      ]
+    },
+    {
+      "id": "E0002",
+      "code": "BCDEG-34567",
+      "name": "Смирнова Анна Сергеевна",
+      "position": "Бухгалтер",
+      "email": "",
+      "trainings": [
+        {
+          "name": "Промышленная безопасность",
+          "perpetual": true,
+          "passed": false,
+          "last_date": null,
+          "valid_until": null,
+          "threshold_days": 365,
+          "needs_clarification": true,
+          "scheduled_date": "2026-12-15",
+          "scheduled_place": "Учебный центр"
+        },
+        {
+          "name": "Первая помощь",
+          "perpetual": false,
+          "passed": true,
+          "last_date": "2026-05-20",
+          "valid_until": null,
+          "threshold_days": 90,
+          "needs_clarification": false,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        }
+      ],
+      "documents": [
+        {
+          "name": "Должностная инструкция",
+          "number": "ДИ-04",
+          "acknowledged": true,
+          "ack_date": "2026-04-01",
+          "due_date": "2026-04-01"
+        }
+      ]
+    },
+    {
+      "id": "E0003",
+      "code": "HJKMN-PQRST",
+      "name": "Кузнецов Олег Иванович",
+      "position": "Слесарь",
+      "email": "kuznetsov@example.com",
+      "trainings": [
+        {
+          "name": "Охрана труда",
+          "perpetual": false,
+          "passed": true,
+          "last_date": "2026-09-01",
+          "valid_until": "2027-09-01",
+          "threshold_days": 365,
+          "needs_clarification": false,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        },
+        {
+          "name": "Гражданская оборона",
+          "perpetual": false,
+          "passed": false,
+          "last_date": null,
+          "valid_until": null,
+          "threshold_days": 30,
+          "needs_clarification": false,
+          "scheduled_date": "2026-12-05",
+          "scheduled_place": "Кабинет 12"
+        },
+        {
+          "name": "Информационная безопасность",
+          "perpetual": true,
+          "passed": true,
+          "last_date": "2025-11-11",
+          "valid_until": null,
+          "threshold_days": 365,
+          "needs_clarification": false,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        },
+        {
+          "name": "Работа на высоте",
+          "perpetual": false,
+          "passed": false,
+          "last_date": "2024-06-01",
+          "valid_until": "2025-06-01",
+          "threshold_days": 30,
+          "needs_clarification": true,
+          "scheduled_date": null,
+          "scheduled_place": ""
+        }
+      ],
+      "documents": [
+        {
+          "name": "Инструкция по работе на высоте",
+          "number": "ИОТ-017",
+          "acknowledged": false,
+          "ack_date": null,
+          "due_date": "2026-12-01"
+        },
+        {
+          "name": "Правила внутреннего трудового распорядка",
+          "number": "ПВТР-01",
+          "acknowledged": true,
+          "ack_date": "2025-12-29",
+          "due_date": null
+        }
+      ]
+    }
+  ]
+}
